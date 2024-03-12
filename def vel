@@ -1,0 +1,7 @@
+def calcular_velocidad(distancia, tiempo):
+    velocidad = distancia / tiempo
+    return velocidad
+distancia = 1000
+tiempo = 5
+velocidad = distancia / tiempo
+print('la velocidad es:', velocidad)
